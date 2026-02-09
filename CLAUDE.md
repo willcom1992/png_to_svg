@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## プロジェクト概要
 
-vtracerライブラリを使用して、PNG画像をSVG形式に一括変換するPythonユーティリティ。
+vtracerライブラリを使用して、PNG/JPG画像をSVG形式に一括変換するPythonユーティリティ。
 
 ## コマンド
 
@@ -25,13 +25,13 @@ python convert.py
 
 ## 使い方
 
-1. `input/` ディレクトリにPNGファイルを配置
+1. `input/` ディレクトリにPNGまたはJPGファイルを配置
 2. `python convert.py` を実行
 3. `output/` ディレクトリにSVGファイルが生成される
 
 ## 構成
 
 単一ファイル構成（`convert.py`）:
-- `input/` 内のPNGファイルを検索
-- vtracerを使用して各PNGをSVGに変換
+- `input/` 内のPNG/JPGファイルを検索
+- vtracerを使用して各画像をSVGに変換
 - 同名（拡張子のみ変更）で `output/` に出力

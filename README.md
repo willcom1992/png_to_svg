@@ -1,6 +1,6 @@
-# PNG to SVG Converter
+# Image to SVG Converter
 
-vtracerライブラリを使用して、PNG画像をSVG形式に一括変換するPythonユーティリティです。
+vtracerライブラリを使用して、PNG/JPG画像をSVG形式に一括変換するPythonユーティリティです。
 
 ## インストール
 
@@ -10,7 +10,7 @@ pip install vtracer
 
 ## 使い方
 
-1. `input/` ディレクトリにPNGファイルを配置
+1. `input/` ディレクトリにPNGまたはJPGファイルを配置
 2. 変換スクリプトを実行
    ```bash
    python convert.py
@@ -22,7 +22,7 @@ pip install vtracer
 ```
 png_to_svg/
 ├── convert.py    # 変換スクリプト
-├── input/        # 入力PNGファイル
+├── input/        # 入力画像ファイル（PNG, JPG）
 └── output/       # 出力SVGファイル
 ```
 
